@@ -1,0 +1,23 @@
+error in vue separatelly in laravel  need node 12.0.0
+
+to switch to 12.0.0
+
+
+npm install autoprefixer@10.4.5 --save-exact 
+
+solution for this
+
+1 WARNING in child compilations (Use 'stats.children: true' resp. '--stats-children' for more details)
+
+----------------------------------------------------------------------end the solution------------
+"vue-loader": "^15.9.5",          it's good with vue 2 not 3
+
+be focus on the versions of packages may be some errors occur because the new or old package?
+
+install laravel from laravel/ui
+
+composer require laravel/ui
+php artisan ui bootstrap
+php artisan ui vue
+
+npm install && npm run dev

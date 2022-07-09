@@ -1,0 +1,7 @@
+composer create-project laravel/laravel=8* todolist --prefer-dist
+php artisan make:model Item -m
+
+php artisan make:controller ItemController --resource
+
+npm install
+npm install vue
